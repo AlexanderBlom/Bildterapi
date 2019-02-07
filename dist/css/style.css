@@ -1,4 +1,4 @@
-.bg{
+.bg {
   height: 100%;
   width: 100%;
   position: fixed;
@@ -11,15 +11,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
-
-div.bg-primary, nav.bg-primary{
-  background-color:#052f5f !important;
 }
 
-.footer{
-  height: 50px;
+div.bg-primary, nav.bg-primary {
+  background-color: #052f5f !important;
+}
+
+.footer {
+  height: 65px;
   background-color: #052f5f;
   color: white;
   vertical-align: middle;
 }
+
+/*# sourceMappingURL=style.css.map */
