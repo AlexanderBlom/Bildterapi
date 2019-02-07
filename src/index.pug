@@ -1,15 +1,23 @@
 extends layout
 block content
 
-    div(class="test")
+    div(class="bg")
 
     main(class="container justify-content-center")
-        div(class="col")
-            div(class="border border-primary bg-white mt-3")    
+        div(class="row")
+            div(class="col col-md-3 border border-primary bg-white m-3")    
                 h4(class="display-5 m-2") Välkommen
                 p(class="m-2") Bildterapihuset drivs av ett nätverk av bildterapeuter. Vi har vår verksamhet i en funktionellt inredd lokal på Brogatan 5. Huset ligger inne på gården, i huset bakom Swefoto. Vår lokal ligger i källarvåningen och det står Bildterapihuset på dörren.
 
-            div(class="border border-primary bg-white mt-3")
+            div(class="col col-md-3 border border-primary bg-white m-3")
+                h4(class="display-5 m-2") Bildterapeutiska metoder passar för gruppen som vill
+                p(class="m-2")
+                    ul 
+                        li Undersöka och förbättra sina kommunikationsmönster
+                        li Utveckla kreativitet, lust och motivation i arbetet
+                        li Lära känna sig själv och varandra
+
+            div(class="col col-md-3 border border-primary bg-white m-3")
                 h4(class="display-5 m-2") Bildterapi passar för dig som söker
                 p(class="m-2") 
                     ul
@@ -17,4 +25,4 @@ block content
                         li Stöd i bearbetning av aktuell eller genomgången kris
                         li Andra uttrycksätt än ord
 
-            
+                
