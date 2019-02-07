@@ -1,16 +1,7 @@
-/*.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    /*line-height: 60px; /* Vertically center the text there 
-    background-color: #f5f5f5;
-  }*/
-
-.test{
+.bg{
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: -2;
@@ -24,4 +15,11 @@
 
 div.bg-primary, nav.bg-primary{
   background-color:#052f5f !important;
+}
+
+.footer{
+  height: 50px;
+  background-color: #052f5f;
+  color: white;
+  vertical-align: middle;
 }
