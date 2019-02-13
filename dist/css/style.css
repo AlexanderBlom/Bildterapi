@@ -31,5 +31,8 @@ body {
   width: 100%;
   background-color: #052f5f;
 }
+.footer ul {
+  list-style: none;
+}
 
 /*# sourceMappingURL=style.css.map */
