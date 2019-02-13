@@ -1,6 +1,4 @@
 .bg {
-  height: 100%;
-  width: 100%;
   position: fixed;
   left: 0;
   top: 0;
@@ -17,11 +15,21 @@ div.bg-primary, nav.bg-primary {
   background-color: #052f5f !important;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin-bottom: 60px;
+}
+
 .footer {
-  height: 65px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #052f5f;
-  color: white;
-  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
