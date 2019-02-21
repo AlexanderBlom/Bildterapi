@@ -3,7 +3,7 @@
   left: 0;
   top: 0;
   z-index: -2;
-  background-image: url("../bilder/bg.png");
+  background-image: url("../bilder/bg-min.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -22,6 +22,7 @@ html {
 
 body {
   height: 100%;
+  width: 100%;
   margin-bottom: 60px;
 }
 
